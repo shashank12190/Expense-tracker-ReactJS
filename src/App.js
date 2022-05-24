@@ -1,10 +1,10 @@
 import './App.css';
-import AddTransctions from './components/AddTransctions';
+import AddTransactions from './components/AddTransactions';
 import Balance from './components/Balance';
 import Header from './components/Header';
-import IncomeExpances from './components/IncomeExpances';
-import TransctionList from './components/TransctionList';
-import { GlobalProvider } from './context/GlobalState'
+import IncomeExpenses from './components/IncomeExpenses';
+import TransactionList from './components/TransactionList';
+import { GlobalProvider } from './context/GlobalStateSimple'
 
 function App() {
   return (
@@ -13,9 +13,9 @@ function App() {
         <Header />
         <div className="container">
           <Balance />
-          <IncomeExpances />
-          <TransctionList />
-          <AddTransctions />
+          <IncomeExpenses />
+          <TransactionList />
+          <AddTransactions />
         </div>
       </GlobalProvider>
     </div>

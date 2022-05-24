@@ -1,22 +1,22 @@
 import React, { useState, useContext } from 'react'
-import { GlobalContext } from '../context/GlobalState'
+import { GlobalContext } from '../context/GlobalStateSimple'
 
 
 
-const AddTransctions = () => {
+const AddTransactions = () => {
     const [text, setText] = useState('')
     const [amount, setAmount] = useState('')
-    const { addTransctions } = useContext(GlobalContext)
+    const { addTransactions } = useContext(GlobalContext)
     const onSubmit = (e) => {
         e.preventDefault()
 
-        const newTranscation = {
+        const newTransaction = {
             id: Math.floor(Math.random() * 10000000),
             text,
             amount: +amount,
-            Math
+            // Math
         }
-        addTransctions(newTranscation)
+        addTransactions(newTransaction)
         setText('')
         setAmount('')
     }
@@ -41,4 +41,4 @@ const AddTransctions = () => {
     )
 }
 
-export default AddTransctions
+export default AddTransactions

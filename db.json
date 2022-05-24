@@ -1,0 +1,34 @@
+{
+  "transactions": [
+    {
+      "id": 4772694,
+      "text": "Shoes",
+      "amount": -50
+    },
+    {
+      "id": 3564513,
+      "text": "Salary",
+      "amount": 5000
+    },
+    {
+      "id": 5698992,
+      "text": "Books",
+      "amount": -50
+    },
+    {
+      "id": 3898726,
+      "text": "Allowances",
+      "amount": 500
+    },
+    {
+      "id": 8055229,
+      "text": "Grocery ",
+      "amount": -400
+    },
+    {
+      "id": 3918494,
+      "text": "shashank parashar",
+      "amount": 669
+    }
+  ]
+}
